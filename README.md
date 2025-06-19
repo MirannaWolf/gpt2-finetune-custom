@@ -63,8 +63,8 @@ pip install -r requirements.txt
 Файл должен быть в формате JSONL (`data/my_corpus.jsonl`) — каждая строка содержит JSON-объект с полем `"text"`:
 
 ```json
-{"text": "Жил-был однажды в лесу мудрый филин..."}
-{"text": "Почему курица перешла дорогу? Чтобы оказаться по другую сторону!"}
+{"text": "Once upon a time..."}
+{"text": "The sun sets slowly behind the mountain"}
 ```
 
 📝 Убедись, что:
@@ -103,8 +103,8 @@ python train.py
 ## 📝 Пример данных
 
 ```json
-{"text": "Солнце садилось за холмы, окрашивая небо в алые цвета..."}
-{"text": "Любопытная лиса пробралась сквозь лес в поисках приключений."}
+{"text": "Once upon a time when I can finally give my children what I love most and I am sure they will love me too."}
+{"text": "The sun sets slowly behind the mountain, and suddenly the moon moon rises out of the mountain. The sun rises from the ridge of the mountain. The sun rises from above the mountain, and the sun rises from below. "}
 ```
 
 После обучения модель будет генерировать текст в похожем стиле.
